@@ -1,0 +1,37 @@
+.images{
+  height: 225px;
+  max-width: 150%;
+}
+.panel-body{
+  height: 225px;
+/*  position: relative;*/
+  padding: 0 !important;
+}
+#first{
+/*  position: absolute;*/
+  width: 100%;
+  background-image: url(robot_leg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+}
+#second{
+/*  position: absolute;*/
+  width: 100%;
+  background-image: url(peg_leg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+}
+.panel{
+  margin-top: 100px;
+  transform:rotate(1deg);
+  -ms-transform:rotate(1deg);
+  -webkit-transform:rotate(1deg);
+}
